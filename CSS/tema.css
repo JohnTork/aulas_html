@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    background-color: rgb(10, 141, 97);
+    background-image: url("../img/folha2.png");
+}
+
+#menu {
+    list-style-type: none;
+    /*tira as bolinhas do menu*/
+    display: flex;
+    /*coloca os elemento um ao lado do outro*/
+    justify-content: flex-end;
+    /*ajusta o texto*/
+    align-items: center;
+    height: 30px;
+    background-color: black;
+    font-size: 1.5em;
+    /*almenta o menu*/
+    position: fixed;
+    top: 0;
+    width: 96%;
+    margin: 0;
+}
+
+#menu li {
+    text-align: center;
+    padding: 5px
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(74, 74, 138);
+}
+
+#menu li a:hover {
+    color: rgb(37, 51, 46);
+    font-size: 1.1em;
+}
+
+.linha-titulo {
+    background-color: rgb(95, 172, 172);
+}
+
+.linha-corpo {
+    background-color: rgb(124, 91, 155);
+}
+
+.linha-corpo:hover {
+    background-color: rgb(145, 67, 67);
+}
+
+table,
+tr,
+td,
+th {
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: rgb(101, 170, 147)
+}
+
+.folha {
+    background-color: rgb(2, 2, 2);
+    background-image: url("../img/folha2.png");
+    height: 160px;
+    width: 160px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+.folhas {
+    display: flex;
+    justify-content: space-around;
+}
