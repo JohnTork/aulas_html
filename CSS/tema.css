@@ -29,10 +29,7 @@ body {
     padding: 5px
 }
 
-#menu li a {
-    text-decoration: none;
-    color: rgb(74, 74, 138);
-}
+
 
 #menu li a:hover {
     color: rgb(37, 51, 46);
@@ -70,6 +67,6 @@ th {
 }
 
 .folhas {
-    display: flex;
+   /*diplay: flex;*/
     justify-content: space-around;
 }
